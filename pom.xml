@@ -20,6 +20,7 @@
     </dependencies>
     
     <build>
+        <finalName>sk_chatAI</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
