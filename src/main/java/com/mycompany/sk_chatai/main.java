@@ -219,7 +219,7 @@ public class main extends javax.swing.JFrame {
                 txtMessage.getText(),
                 null);
 
-        txtReply.setText(response.text());
+        txtReply.setText(txtReply.getText().concat("SEN : ").concat(txtMessage.getText()).concat("\n\n").concat("AI : ").concat(response.text()).concat("\n__________________________________________________\n\n"));
 
         setTitle("SK Sanal Konuşma Arkadaşı");
     }//GEN-LAST:event_btnSendActionPerformed

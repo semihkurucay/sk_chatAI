@@ -5,6 +5,7 @@
   <artifactId>sk_ChatAI</artifactId>
   <version>1.0-SNAPSHOT</version>
   <build>
+    <finalName>sk_chatAI</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-shade-plugin</artifactId>
